@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    background-color: rgb(83, 78, 78);
+    padding: 20px;
+    margin:  50px;
+    display: flex;
+    align-items: center;
+    flex: wrap;
+    max-width: 400px;
+    max-height: 550px;
+}
+img{
+    min-height: 30vh;
+    border-radius: 60%;
+    display: flex;
+    padding-left: 40px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+padding-left: 5px;
+    margin-left: 25px;
+}
+h2{
+    color: rgb(24, 203, 39);
+    font-size: 14px;
+    padding-left: 30px;
+
+    margin-left: 20px;
+}
+
+p{
+    padding-top: 20px;
+
+}
+
+a{
+    color: aliceblue;
+    background-color: rgb(184, 174, 174);
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+
+a:hover{
+    background-color: rgb(92, 226, 80);
+    color: black;
+}
+
+.pickup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
